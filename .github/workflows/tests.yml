@@ -10,8 +10,32 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install dependencies and run tests
+      - name: Install dependencies and run tests for auth
         run: |
           cd ticketing/auth
+          npm install
+          npm run test:ci
+
+      - name: Install dependencies and run tests for tickets
+        run: |
+          cd ticketing/tickets
+          npm install
+          npm run test:ci
+
+      - name: Install dependencies and run tests for orders
+        run: |
+          cd ticketing/orders
+          npm install
+          npm run test:ci
+
+      - name: Install dependencies and run tests for payments
+        run: |
+          cd ticketing/payments
+          npm install
+          npm run test:ci
+
+      - name: Install dependencies and run tests for expiration
+        run: |
+          cd ticketing/expiration
           npm install
           npm run test:ci
