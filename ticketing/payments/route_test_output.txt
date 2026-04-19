@@ -1,0 +1,16 @@
+  console.log
+    Event published
+
+      at node_modules/@microservicescommon/common/src/events/base-publisher.ts:19:21
+
+PASS src/routes/__test__/new.test.ts (5.187 s)
+  ✓ returns a 404 when purchasing an order that does not exist (59 ms)
+  ✓ returns a 401 when purchasing an order that does not belong to the user (25 ms)
+  ✓ returns a 400 when purchasing a cancelled order (15 ms)
+  ✓ returns a 201 with valid inputs (55 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       4 passed, 4 total
+Snapshots:   0 total
+Time:        5.552 s, estimated 7 s
+Ran all test suites matching src/routes/__test__/new.test.ts.

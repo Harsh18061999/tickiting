@@ -1,0 +1,9 @@
+PASS src/events/listeners/__test__/order-created-listener.test.ts (6.529 s)
+  ✓ replicates the order info (25 ms)
+  ✓ acks the message (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        6.774 s
+Ran all test suites matching order-created-listener.test.ts.

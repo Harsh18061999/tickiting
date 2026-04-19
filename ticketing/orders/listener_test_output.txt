@@ -1,0 +1,9 @@
+PASS src/events/listeners/__test__/payment-created-listener.test.ts (5.048 s)
+  ✓ updates the order status to complete (44 ms)
+  ✓ acks the message (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        5.442 s
+Ran all test suites matching src/events/listeners/__test__/payment-created-listener.test.ts.
